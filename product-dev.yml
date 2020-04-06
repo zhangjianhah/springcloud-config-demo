@@ -12,7 +12,11 @@ spring:
     database: MySQL
     show-sql: true
     open-in-view: true
-
+  rabbitmq:
+    host: 127.0.0.1
+    username: guest
+    password: guest
+    port: 15762
 #配置eureka client
 eureka:
   client:
